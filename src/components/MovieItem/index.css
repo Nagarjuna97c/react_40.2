@@ -1,0 +1,27 @@
+.movie-image {
+  height: 175px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.popup-content {
+  border-radius: 8px;
+}
+
+.close-button {
+  outline: none;
+  border: none;
+  background: none;
+  align-self: flex-end;
+  justify-self: center;
+  order: -1;
+}
+
+.icon {
+  font-size: 32px;
+}
